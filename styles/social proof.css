@@ -16,7 +16,7 @@ body{
       display: flex;
       flex-direction:column;
       width: 30%;
-      border: 1px solid;
+     
     }
     .title{
       color: hsl(300, 43%, 22%);
@@ -33,13 +33,44 @@ body{
       display: flex;
       flex-direction:column;
       width: 50%;
-      border:1px solid;
-    }
-    .card-1{
+     
       
     }
-
-
+   
+    .card-1, .card-2, .card-3{
+      background-color: hsl(300, 24%, 96%);
+      margin-bottom:15px;
+      display:flex;
+      justify-content:center;
+      width: 60%; 
+      padding: 15px 25px 15px 15px;
+      gap: 15px;
+      border-radius: 5px;
+    }
+    .stars{
+      display: flex;
+      gap: 3px;  
+    }
+    .stars img{
+      width: 20px;
+      height: 20px;
+      }
+    .text{
+      font-weight: 700;
+      font-size: 18px;
+      color: hsl(300, 43%, 22%);
+    }
+    .card-1{
+      margin-left: 18%;
+      margin-top: 3%;
+    }
+    .card-2{
+      margin-left: 28%;
+    }
+    .card-3{
+      margin-left: 38%;
+    }
+   
 
 .attribution {
     font-size: 11px;
