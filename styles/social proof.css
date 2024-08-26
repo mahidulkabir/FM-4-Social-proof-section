@@ -1,10 +1,45 @@
+/* common styles section */
 body{
     background: url(../images/bg-pattern-top-desktop.svg),url(../images/bg-pattern-bottom-desktop.svg);
     background-position: left top , bottom right;
     background-repeat: no-repeat;
-    
-    
-}
+    margin: 10%;
+    font-family: "League Spartan", sans-serif;
+    }
+    /* top section styles  */
+    .top-container{
+      display: flex;
+      height: 50%;
+      justify-content:space-between;
+    }
+    .top-left{
+      display: flex;
+      flex-direction:column;
+      width: 30%;
+      border: 1px solid;
+    }
+    .title{
+      color: hsl(300, 43%, 22%);
+      font-weight: 700;
+      font-size: 2.7em;
+
+    }
+    .description{
+      font-size: 15px;
+      color: hsl(303, 10%, 53%);
+      margin-top: 15px;
+    }
+    .top-right{
+      display: flex;
+      flex-direction:column;
+      width: 50%;
+      border:1px solid;
+    }
+    .card-1{
+      
+    }
+
+
 
 .attribution {
     font-size: 11px;
